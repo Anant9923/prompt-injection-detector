@@ -4,7 +4,6 @@ A binary text classifier (`safe` vs `injection`) built by fine-tuning DeBERTa-v3
 
 - Model: https://huggingface.co/Anant9923/prompt-injection-detector
 
-
 ## Task
 Label 1 = prompt injection (text that tries to override or leak the instructions of an AI system).
 Label 0 = normal text.
@@ -35,6 +34,9 @@ bash
 pip install -r requirements.txt
 python src/predict.py     # example predictions
 python app.py             # local Gradio demo
+
+Live demo:
+- Demo: video at <https://drive.google.com/file/d/1ZP5HJxQkZO-ymBzYrZ2TnZZXhm0PRdjS/view?usp=sharing>
 
 
 ## Repo layout
