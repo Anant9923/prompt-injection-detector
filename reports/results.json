@@ -1,0 +1,25 @@
+{
+  "baseline_tfidf_test": {
+    "accuracy": 0.97,
+    "inj_f1": 0.95,
+    "FP": 0,
+    "FN": 32,
+    "hard": "7/14"
+  },
+  "v1_test": {
+    "accuracy": 0.99,
+    "inj_f1": 0.984,
+    "FP": 5,
+    "FN": 6,
+    "hard": "11/14"
+  },
+  "v2_hard": "10/14",
+  "v3_test": {
+    "accuracy": 0.994,
+    "inj_f1": 0.989,
+    "FP": 0,
+    "FN": 7,
+    "hard": "14/14",
+    "roc_auc": 0.9991
+  }
+}
